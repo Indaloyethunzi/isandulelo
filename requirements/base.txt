@@ -1,0 +1,26 @@
+# Core Django and API dependencies
+Django>=4.2.0,<5.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.0.0
+django-filter>=23.0
+django-taggit>=4.0.0
+
+# Database and ORM
+psycopg2-binary>=2.9.0  # PostgreSQL adapter
+
+# File handling and images
+Pillow>=10.0.0
+python-magic>=0.4.27
+
+# Environment and configuration
+python-decouple>=3.8
+django-environ>=0.10.0
+
+# API documentation
+drf-spectacular>=0.26.0
+
+# Development and debugging utilities
+django-extensions>=3.2.0
+
+# Security
+django-ratelimit>=4.0.0
